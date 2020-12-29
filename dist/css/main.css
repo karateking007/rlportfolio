@@ -260,6 +260,7 @@ img {
     text-align: center;
     padding-top: 20%; }
     #header-home .header-content h1 {
+      animation: slideInFromTop 1s ease-in;
       font-size: 3rem;
       line-height: 1.2; }
 
@@ -329,10 +330,7 @@ img {
     position: relative;
     transition: all 0.5s; }
     #home-c .process-icon:hover {
-      background: #faed26;
-      width: 90px;
-      height: 90px;
-      line-height: 90px; }
+      background: #faed26; }
       #home-c .process-icon:hover .process-step {
         background: #31708e; }
 
@@ -564,3 +562,22 @@ img {
       padding-top: 1rem; }
       #header-home .header-content h1 {
         font-size: 1.8rem; } }
+
+/* Animations */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0); } }
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0); } }
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-500px); }
+  100% {
+    transform: translateY(0); } }
