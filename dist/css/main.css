@@ -285,8 +285,15 @@ img {
   #home-a .specials .card p {
     text-align: center; }
   #home-a .specials .fas {
-    color: #faed26;
-    padding-bottom: 0.4rem; }
+    padding-bottom: 0.4rem;
+    color: #31708e; }
+  #home-a .specials .card:hover {
+    background: #31708e; }
+    #home-a .specials .card:hover h3,
+    #home-a .specials .card:hover p {
+      color: #fff; }
+    #home-a .specials .card:hover .fas {
+      color: #fff; }
 
 #home-b .stats {
   display: grid;
@@ -564,18 +571,6 @@ img {
         font-size: 1.8rem; } }
 
 /* Animations */
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%); }
-  100% {
-    transform: translateX(0); } }
-
-@keyframes slideInFromRight {
-  0% {
-    transform: translateX(100%); }
-  100% {
-    transform: translateX(0); } }
-
 @keyframes slideInFromTop {
   0% {
     transform: translateY(-500px); }

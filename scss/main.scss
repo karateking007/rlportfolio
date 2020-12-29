@@ -124,8 +124,19 @@ img {
       }
 
       .fas {
-        color: $main-color;
         padding-bottom: 0.4rem;
+        color: $dark-color;
+      }
+
+      .card:hover {
+        background: $dark-color;
+        h3,
+        p {
+          color: #fff;
+        }
+        .fas {
+          color: #fff;
+        }
       }
     }
   }
@@ -399,22 +410,6 @@ img {
 @import "media";
 
 /* Animations */
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes slideInFromRight {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 @keyframes slideInFromTop {
   0% {
     transform: translateY(-500px);
