@@ -451,7 +451,7 @@ img {
     height: 5rem;
     align-items: center; }
     #main-footer .footer-content .social a {
-      margin-right: 1rem;
+      margin: auto;
       border: 2px #fff solid;
       color: #faed26;
       height: 20px;
